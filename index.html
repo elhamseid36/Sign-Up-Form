@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="styelsheet" href="style.css"/>
+        <title>Sign-Up-Form</title>
+
+
+    </head>
+    <body>
+        <main>
+             <div class="main-container">
+                  <aside>
+                      <div class="logo-section">
+                        <!-- <img  src="https://i.pinimg.com/originals/2a/d4/d1/2ad4d182bbe543538a8a76be89ecd6ab.gif" alt="cyclon"> -->
+                        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="odin logo">
+                         <h1>ODIN</h1>
+                        
+                       </div>
+                  </aside>
+
+                  
+                  
+                  <section>
+                   
+                         <div class="description">
+                               <strong><p>This is odin! join us and explore the coding journey which will help you realize your deepest dreams.Sign up now to get started.</p></strong>
+                               <strong><p>You know you want to.</p></strong>
+                         </div>
+
+                        
+                         <div class="form-section">
+
+                            <form action="#" method="post" id="Sign-Up-Form">
+                       
+                            
+                       
+                    <fieldset>
+                            
+                         <h1>Let's do this!</h1>
+
+                    <div class="label-section">
+                        <div class="first">
+                          <div class="first-name">
+                                    <label for="first_name">FIRST NAME </label>
+                                    <input type="text" id="first_name"  placeholder="write your first name" required/>
+                          </div>
+                             
+                          <div class="last-name">
+                                    <label for="last_name">LAST NAME</label>
+                                    <input type="text" id="last_name" placeholder="write your last name" required/>
+                         </div>
+
+                         <div class="email">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" id="email" placeholder="email@gmail.com" required/>
+                            </div>
+                            <div class="age"> 
+                                    <label for="number"> AGE</label>
+                                     <Input id="number" type="number" placeholder="13" min="13" max="120" required/>
+                              </div>       
+                       </div>
+                       
+                       
+                       <div class="second">
+                              <div class="phone">
+                                    <label for="phone_number">PHONE NUMBER</label>
+                                     <input tpye="number" id="phone_number" placeholder="+2519111111" required/>
+                                </div>
+                                <div class="password">
+                                     <label for="password">PASSWORD</label>
+                                     <input type="password" id="password" placeholder="enter password"  required/>
+                                </div>
+
+                                <div class="comfirm">
+                                     <label for="comfirm_password">COMFIRM PASSWORD</label>
+                                     <input type="password" id="comfirm_password" placeholder="comfirm password" required/>
+                                </div> 
+                        </div>
+
+
+                        </div>
+     
+                                
+                        </fieldset>
+                            
+                            
+                               
+                         
+            
+                                <fieldset>
+                                    <div class="button-container"> 
+                                         <button type="submit">CREATE ACCOUNT</button>
+                                         <p>Alraedy have an account?<a href="#">Log In</a></p>
+                                    
+                                </div>
+                                     
+                                  </fieldset>
+                        
+
+                            </form>
+
+                         </div>
+
+                         
+
+                  </section>
+
+             </div>
+        </main>
+    </body>
+
+</html>
+<style>
+    
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+    border: 6px solid #15a8ad;
+    height: 100vp;
+}
+
+
+.main container {
+     display: flex;
+
+}
+aside {
+    display: flex;
+    flex-basis: auto;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/2a/d4/d1/2ad4d182bbe543538a8a76be89ecd6ab.gif);
+    background-size: 40pc;
+    background-repeat: no-repeat;
+    
+    }
+
+    .description {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+  .logo-section {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 150px;
+    padding-left: 300px;
+    
+
+  }
+  .logo-section img {
+    width: 150px;
+    
+  }
+  .logo-section h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: oblique;
+    color: lightgreen;
+  }
+ section {
+    display: flex;
+     flex-direction: column;
+    
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    bottom: 300px;
+   
+   }
+   form {
+    background-color: #15a8ad;
+    position: absolute;
+    right: 200px;
+    width: 80%;
+    border: 3px solid #000000;
+    border-style: dotted;
+    
+    
+
+   }
+  .label-section {
+    display: flex;
+    flex: auto;
+    flex-grow: 300;
+    justify-content: space-around;
+    font-weight: 500;
+    font-style: italic;
+
+  }
+   .first {
+      padding-right: 120px;
+      
+    }
+
+   
+     .last-name {
+        padding-top: 6px;
+     }
+
+     .email {
+        padding-top: 6px;
+        
+     }
+
+     .age {
+        padding-top: 6px;
+     }
+     .phone {
+        padding-right: 110px;
+     }
+
+     
+     .password {
+        padding-top: 5px;
+     }
+
+     .comfirm {
+        padding-top: 5px;
+     }
+   
+     .form-section fieldset {
+        border: 2px solid #000000;
+        border-style: dotted;
+     }
+   
+   button  {
+    background-color: cyan;
+    border-radius: 30%;
+    border-color: #000000;
+  }
+  button:hover {
+    color: #ff00ff;
+  }
+
+  a {
+    color: lightgreen;
+  }
+
+  a:hover {
+    color: green;
+  }
+
+  label:hover {
+    color: greenyellow;
+  }
+    
+
+
+    input:hover {
+        background-color: #15a8ad;
+    }
+
+
+   
+    
+
+ 
+    
+   
+
+</style>   

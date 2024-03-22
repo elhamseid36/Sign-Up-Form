@@ -1,0 +1,156 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+    border: 6px solid #15a8ad;
+    height: 100vp;
+}
+
+
+.main container {
+     display: flex;
+
+}
+aside {
+    display: flex;
+    flex-basis: auto;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/2a/d4/d1/2ad4d182bbe543538a8a76be89ecd6ab.gif);
+    background-size: 40pc;
+    background-repeat: no-repeat;
+    
+    }
+
+    .description {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+  .logo-section {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 150px;
+    padding-left: 300px;
+    
+
+  }
+  .logo-section img {
+    width: 150px;
+    
+  }
+  .logo-section h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: oblique;
+    color: lightgreen;
+  }
+ section {
+    display: flex;
+     flex-direction: column;
+    
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    bottom: 300px;
+   
+   }
+   form {
+    background-color: #15a8ad;
+    position: absolute;
+    right: 200px;
+    width: 80%;
+    border: 3px solid #000000;
+    border-style: dotted;
+    
+    
+
+   }
+  .label-section {
+    display: flex;
+    flex: auto;
+    flex-grow: 300;
+    justify-content: space-around;
+    font-weight: 500;
+    font-style: italic;
+
+  }
+   .first {
+      padding-right: 120px;
+      
+    }
+
+   
+     .last-name {
+        padding-top: 6px;
+     }
+
+     .email {
+        padding-top: 6px;
+        
+     }
+
+     .age {
+        padding-top: 6px;
+     }
+     .phone {
+        padding-right: 110px;
+     }
+
+     
+     .password {
+        padding-top: 5px;
+     }
+
+     .comfirm {
+        padding-top: 5px;
+     }
+   
+     .form-section fieldset {
+        border: 2px solid #000000;
+        border-style: dotted;
+     }
+   
+   button  {
+    background-color: cyan;
+    border-radius: 30%;
+    border-color: #000000;
+  }
+  button:hover {
+    color: #ff00ff;
+  }
+
+  a {
+    color: lightgreen;
+  }
+
+  a:hover {
+    color: green;
+  }
+
+  label:hover {
+    color: greenyellow;
+  }
+    
+
+
+    input:hover {
+        background-color: #15a8ad;
+    }
+
+
+   
+    
+
+ 
+    
+   
+
